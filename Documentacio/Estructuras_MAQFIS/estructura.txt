@@ -1,0 +1,30 @@
+C:.
+|   .git  
+|   .gitignore
+|   
+|   
++---app1
+|   |   .dockerignore
+|   |   docker-compose.yml
+|   |   Dockerfile
+|   |   
+|   \---codi
+|           app1.php
+|           index.html
+|           
++---app2
+|   |   .dockerignore
+|   |   docker-compose.yml
+|   |   Dockerfile
+|   |   
+|   \---codi
+|           app2.php
+|           index.html
+|           
++---vm
+|    |   Vagrantfile
+|    \---.vagrant
+|
+|
+|
+\---Documentacio

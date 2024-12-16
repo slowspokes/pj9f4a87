@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-12-15" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3312" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#000000]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="2" uid="c9dd7f3755ab464a995b92c04a9ac815" name="Act8.7" meeting="false" start="2024-12-02" duration="11" complete="0" expand="true">
+            <task id="3" uid="e0b341db860c493081929a2ff7ec0eac" name="Presentacio / Planificacio" color="#000000" meeting="false" start="2024-12-02" duration="3" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="false">
+                <task id="0" uid="94242a12173e455782abdfd1dba401f8" name="Explicacio ACT 8.7" meeting="false" start="2024-12-02" duration="1" complete="0" expand="true"/>
+                <task id="4" uid="f67ce05bfc4b43f48013829f8d02f950" name="Creacio del document de Dependencies" meeting="false" start="2024-12-02" duration="1" complete="0" expand="true"/>
+                <task id="5" uid="155e3186a05343f3925ce88fa660d5c0" name="Creacio del Gantt" color="#8cb6ce" meeting="false" start="2024-12-04" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="6" uid="ea269111a675419eb7e77f03a3b03b52" name="Creacio del Trello / KANBAN" color="#8cb6ce" meeting="false" start="2024-12-04" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="13" uid="72aaa395ff5d40d9a44e2396846b33a2" name="Part 1" meeting="false" start="2024-12-02" duration="6" complete="0" expand="false">
+                <task id="9" uid="e741ad377e8d4b89a6cb39f2140bcf9a" name="Creacio de l'estructura de la Maquina Fisica" color="#8cb6ce" meeting="false" start="2024-12-04" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="10" uid="2904850845134a5d86e6be04cf16ccbb" name="Creacio de l'estructura de la Maquina Virtual" color="#8cb6ce" meeting="false" start="2024-12-04" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="11" uid="fea0d5649f8249d7b6d02c6b2feaedcd" name="Preparacio del Informe" color="#8cb6ce" meeting="false" start="2024-12-02" duration="4" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="7" uid="e6d79c2251f34a1e8d6dcc360140e518" name="Autoritzacio del mentor" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="8" uid="caf3cae2f9c74b0b80dedd17a54b5906" name="Autoritzacio del Tecnic" color="#8cb6ce" meeting="false" start="2024-12-05" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="14" uid="ddecb5b9b5e644e0a8ad517145a3b7a8" name="Part2" meeting="false" start="2024-12-05" duration="3" complete="0" expand="false">
+                <task id="16" uid="3941e49df6044b8fb82c04ebe194eb99" name="Preparacio del Informe" color="#8cb6ce" meeting="false" start="2024-12-05" duration="3" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="18" uid="b3d6e2c6e4264c2a862b36dfeff946c8" name="Creacio del Vagrantfile" color="#8cb6ce" meeting="false" start="2024-12-05" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="19" uid="f45bb1be8d444eb7836b88d91a02896c" name="Realitzar el Commit 1" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="20" uid="706f0ec1fcbd44529c53e5275b0270a6" name="Creacio del Repositori en Github" meeting="false" start="2024-12-09" duration="1" complete="0" expand="true"/>
+                <task id="15" uid="d87aa162037b45cc9db5d809eb8f6968" name="Autoritzacio del Tecnic" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-02" thirdDate-constraint="0" expand="true"/>
+                <task id="21" uid="a45413899982461e93d068ac3fe8d390" name="Autoritzacio del Mentor" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-11-28" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="22" uid="5e15300873464396a875eff337133005" name="Part3" color="#000000" meeting="false" start="2024-12-09" duration="2" complete="0" thirdDate="2024-11-28" thirdDate-constraint="0" expand="false">
+                <task id="24" uid="73da92bca7344732a2f02b31cca39781" name="Descargar-se l'app1" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-11-25" thirdDate-constraint="0" expand="true"/>
+                <task id="26" uid="f2be2b8d07b94c01b497a755d5cebe36" name="Creacio del docker-compose.yml" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="33" uid="f22eadd9bda94b9582e79d0f97d032d7" name="Creacio de l'aplicacio" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="27" uid="7e3e2cb7ab874684b01a75c336f8d73b" name="Realitzacio del commit" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="30" uid="358aab5a5f9345778ccf38a0530c5ab8" name="Pujar els fitxers al github" color="#8cb6ce" meeting="false" start="2024-12-09" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="35" uid="facd1569ca804d5ab68e09313f7850fd" name="Creació de instruccions del joc" meeting="false" start="2024-12-09" duration="1" complete="0" expand="true"/>
+                <task id="28" uid="b430b7d9fcc444e6a0eb08ff16dd99de" name="Comprovacions" color="#8cb6ce" meeting="false" start="2024-12-10" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="31" uid="53d4f838db2e4fb887de57b570cac4a1" name="Autortizacio Tecnic" color="#8cb6ce" meeting="false" start="2024-12-10" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+                <task id="32" uid="303d6b62a13e4d82ac69b5f1f0432ebe" name="Autoritzacio Mentor" color="#8cb6ce" meeting="false" start="2024-12-10" duration="1" complete="0" thirdDate="2024-12-09" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="34" uid="54de8517db0049b4a35c90cdcdf05e3a" name="Part4" meeting="false" start="2024-12-11" duration="4" complete="0" expand="false">
+                <task id="36" uid="e7a35df02dbd444ba1f3573387ba9f09" name="Clonació del dipòsit" meeting="false" start="2024-12-11" duration="1" complete="0" expand="true"/>
+                <task id="37" uid="00f1b3403a6648b58827316f3563e461" name="Esborra el dipòsit .git que s'ha creat" meeting="false" start="2024-12-11" duration="1" complete="0" expand="true"/>
+                <task id="38" uid="7f14139b127d43019923dcc918805c7f" name="Comprovacions de la màquina virtual" meeting="false" start="2024-12-11" duration="1" complete="0" expand="true"/>
+                <task id="39" uid="3abd5c5aef6f46a8896bfb7c5b14fada" name="Modificar el script bd.sql (màquina fìsica)" meeting="false" start="2024-12-11" duration="1" complete="0" expand="true"/>
+                <task id="40" uid="2bc531ee89bc4837a8c261e1ff9bf3ac" name="Desenvolupar un fitxer Dockerfile" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true"/>
+                <task id="41" uid="6272316a59c14dc581069e73fc7a13c4" name="Desenvolupar un fitxer docker-compose.yml dins de pj9f4a87apl2(maquina fisica)" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true"/>
+                <task id="42" uid="ac64b725e4b343cb93f2f3fb37ef3d97" name="Dins del directori app, modificar el fitxer config.php" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[Dins del directori app, modificar el fitxer config.php(maquina fisica)]]></notes>
+                </task>
+                <task id="43" uid="159b9729180042c892d7db35ff32635d" name="Posar en marxa l'aplicació i fer comprovacions" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[(Màquina virtual) Dins de pj9f4a87apl2 posar en marxa l'aplicació i despres fer comprovacions]]></notes>
+                </task>
+                <task id="44" uid="04411d48f42e4ecf8346492245e5aea7" name="Afegir la taula de usuaris a la base de dades bdPj9f4a87apl2" meeting="false" start="2024-12-12" duration="1" complete="0" expand="true">
+                    <notes><![CDATA[k) Afegeix la taula usuaris i les seves dades a la base de dades bdPj9f4a87apl2 de l'aplicació executant el
+script bd.sql. Realitza els següents passos:
+• Accedeix al contenidor de la cMySQL executant: docker exec -it cMysql bash
+• Dins del contenidor accedeix a la carpeta /sql executant: cd /sql
+• Executa el script bd.sql que ara també es troba dins /sql: mysql -u asix2 -p -e './bd.sql'
+• Escriu la contrasenya de l'usuari asix2 indicada a docker-compose.yml.
+• Comprova que la taula usuaris i les seves dades s'han creat. Executa: mysql -u asix2 -p -e 'use
+bdPj9f4a87apl2;select * from/us]]></notes>
+                </task>
+                <task id="45" uid="70ea781b90714c4493519cd04cd080d0" name="Troba IP de la maquina virtual" meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+                <task id="46" uid="45a84e99c4984d6786f7833f41bebc63" name="Accedeix a l'aplicació amb el navegador" meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+                <task id="47" uid="ba8479c5280d419cb25798d5f59097e1" name="Posar en marxa l'aplicacio amb 10 contenidors" meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+                <task id="48" uid="6f8c3c3d4581488fa5280dddb82e35b7" name="Fer un 3 commit local" meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+                <task id="49" uid="941ec07b17e14f25bc920cd696100bce" name="Pujeu als vostres comptes de Github tots el fitxers de l'activitat." meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+                <task id="51" uid="3f5f6682b4d24398b6580d835e732479" name="Lliurament part tecnica" meeting="false" start="2024-12-16" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
